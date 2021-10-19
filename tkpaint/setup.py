@@ -14,7 +14,7 @@ include = ["atexit"]
 
 exclude = ["logo.ico"]
 
-pkgmodule = ["PIL", "PyQt5"]
+pkgmodule = ["PIL"]
 
 options = {"build_exe": {"includes":include, "packages": pkgmodule, 'include_files':includefile, 'excludes': exclude}}
 

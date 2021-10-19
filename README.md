@@ -1,9 +1,13 @@
 # TKPaint
 
-Paint app
+Paint app, this is the whole enviorment
 
-install whatever you need from the requirments file with pip and then run the paint.pyw
 
-To build, run the setup.py
+## Running
+run the venv with the commandline
 
-Ya need the command line to run the setup.py and the pip, but no need the command line for the paint.pyw
+install pipreqs
+
+go to the tkpaint directory
+
+read the readme there and do what does it say, make sure to stay on the command line

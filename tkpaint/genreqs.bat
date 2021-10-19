@@ -1,0 +1,1 @@
+..\scripts\runsh.bat mkreqs.sh

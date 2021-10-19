@@ -1,2 +1,12 @@
-__pycache__/
-build/
+# outside venv
+__pycache__/*
+build/*
+
+# inside venv
+tkpaint/__pycache__/*
+tkpaint/build/*
+
+# inside env folder
+env/cx_Logging-doc/*
+env/Lib/*
+env/Libs/*

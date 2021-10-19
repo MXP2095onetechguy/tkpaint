@@ -14,7 +14,6 @@ from tkinter.colorchooser import askcolor
 import tkinter.ttk as ttk
 import tooltip as tp
 import tk_tools as tktools
-import PyQt5
 
 class Paint:
     def redraw(self):
