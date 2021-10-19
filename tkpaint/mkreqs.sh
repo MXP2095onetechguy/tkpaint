@@ -1,1 +1,1 @@
-pipreqs . --force
+pipreqs . --force --print

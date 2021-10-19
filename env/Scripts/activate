@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Noah Lie\OneDrive\Desktop\PyTk\venv\env"
+VIRTUAL_ENV="C:\Users\Noah Lie\OneDrive\Desktop\PTk\tkpaint\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

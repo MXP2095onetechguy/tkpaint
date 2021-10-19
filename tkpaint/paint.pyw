@@ -8,8 +8,6 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 import tkinter.messagebox as tkmb
 import tkinter.commondialog as tkcd
 import tkinter.dialog as tkd
-import tk_tools as tkt
-import tk_tools
 from tkinter.colorchooser import askcolor
 import tkinter.ttk as ttk
 import tooltip as tp
@@ -436,12 +434,12 @@ class Paint:
         self.PS = tk.Scale(PenFrame, orient=tk.HORIZONTAL, from_=0, to=40, showvalue = 0)
         self.PS.pack()
         self.PS.set(self.DEFAULT_PEN_SIZE)
-        self.rs = tk_tools.RotaryScale(PenFrame, max_value=40)
+        self.rs = tktools.RotaryScale(PenFrame, max_value=40)
         self.rs.pack()
         self.winfm.timer.after(20, self.updateGaugeAndLed)
         PSlbl = tk.Label(PenFrame, text="Pen Size")
         PSlbl.pack()
-        self.led = tk_tools.Led(PenFrame, size=50)
+        self.led = tktools.Led(PenFrame, size=50)
         self.led.pack()
         
         self.cnv=tk.Canvas(CanvasFrame, width=586,height=586,background=self.color_bg)
